@@ -21,16 +21,16 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path ='/' element={<Shop/>} />
-        <Route path ='/Collections' element={<Collections/>} />
-        <Route path ='/NewArrivals' element={<NewArrivals/>} />
-        <Route path ='/Blog' element={<Blog/>} />
-        <Route path ='/About' element={<About/>} />
-        <Route path ='/ProductCard' element={<ProductCard />} >
+        <Route path ='/carpet' element={<Shop/>} />
+        <Route path ='carpet/Collections' element={<Collections/>} />
+        <Route path ='/carpet/NewArrivals' element={<NewArrivals/>} />
+        <Route path ='/carpet/Blog' element={<Blog/>} />
+        <Route path ='/carpet/carpet/About' element={<About/>} />
+        <Route path ='/carpet/ProductCard' element={<ProductCard />} >
           <Route path=':productId' element={<ProductCard />} />
         </Route>
-        <Route path ='/Cart' element={<Cart/>} />
-        <Route path ='/Product' element={<Product />} />
+        <Route path ='/carpet/Cart' element={<Cart/>} />
+        <Route path ='/carpet/Product' element={<Product />} />
       </Routes>
       <Footer />
       </BrowserRouter>
