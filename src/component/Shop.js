@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import Product from './Product';
 
 
 
@@ -20,7 +21,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db" alt="Photo of a dimly lit room with a computer interface terminal." />
+			          <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db" alt=" a dimly lit room with a computer interface terminal." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE ESSENTIAL BENI OUARAIN CARPET</h1>
@@ -37,7 +38,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/warehouse.jpg" class="db" alt="Photo of a warehouse with stacked shelves." />
+			          <img src="http://mrmrs.github.io/photos/warehouse.jpg" class="db" alt="a warehouse with stacked shelves." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE ATYPICAL AZILAL RUG</h1>
@@ -54,7 +55,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/whale.jpg" class="db" alt="Photo of a whale's tale coming crashing out of the water." />
+			          <img src="http://mrmrs.github.io/photos/whale.jpg" class="db" alt=" a whale's tale coming crashing out of the water." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE AVANT-GARDE BOUCHEROUITE RUG</h1>
@@ -69,9 +70,13 @@ function Shop() {
 			  </article>
 			</div>
 			<div>
+			<h1 className="tc">Product</h1>
+			<Product />
+			<hr />
+			</div>
+			<div>
 				<header class="vh-100 bg-light-red dt w-100">
 				    <div 
-				      /*style={{background:url('http://mrmrs.github.io/photos/display.jpg'), no-repeat center right , background-size: cover}}*/ 
 				      class="dtc v-mid cover ph3 ph4-m ph5-l">
 				      <h1 class="f2 f-subheadline-l measure lh-title fw9">You buy directly from the artisan, at the right price</h1>
 				      <h2 class="f6 fw6 black">we don't do things like everyone else! We explain everything: here, when you buy a carpet, 
