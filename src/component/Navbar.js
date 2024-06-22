@@ -17,15 +17,12 @@ return (
 	          </a>
 	        </div>
 	        <div className="dtc v-mid tr pa3">
-	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/carpet/Collections" >Collections</a> 
-	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/carpet/NewArrivals" >New Arrivals</a> 
-	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/carpet/About" >About</a> 
-	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/carpet/Blog" >Blog</a> 
+	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/carpet/Collections" >Carpet Amazigh</a> 
+	          <a className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/carpet/NewArrivals" >Traditional Carpet</a>  
 	          <a className="f6 fw4 hover-white no-underline white-70 dn dib m12 pv2 ph3" href="/carpet/Cart" >
 	            <img src={shopcart} className='dib w2 h2 br-100' alt='cart icon' />
 	            <div className="nav-cart-count"> {getTotalCartItems()} </div>
 	          </a>
-	          <a className="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/carpet/Product" >Sign Up</a> 
 	        </div>
 	    </nav>
 	  </div>
