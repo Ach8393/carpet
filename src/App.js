@@ -19,8 +19,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path ='/carpet' element={<Shop/>} />
-        <Route path ='carpet/Collections' element={<TissuCategory category ="electronics" />} />
-        <Route path ='carpet/NewArrivals' element={<TissuCategory category ="jewelery"  />} />
+        <Route path ='/electronics' element={<TissuCategory category ="electronics" />} />
+        <Route path ='/jewelery' element={<TissuCategory category ="jewelery"  />} />
         <Route path ='/Blog' element={< TissuCategory category ="blog" />} />
         <Route path ='/About' element={< TissuCategory category ="about" />} />
         <Route path ='/ProductCard' element={<ProductCard />} >
