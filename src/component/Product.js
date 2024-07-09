@@ -15,7 +15,7 @@ const Product = () => {
            {allProducts.map(product =>{
             return (
             <div key={product.id} className='fl w-50 w-25-m w-20-l pa2'>
-            <Link to={ `/ProductCard/${product.id}` } ><img src="{product.image}" alt="Frank Ocean Blonde Album Cover" className="w-100 db outline black-10"/></Link>
+            <Link to={ `/ProductCard/${product.id}` } ><img src={product.image} alt="product pic" style={{ height:'200px' }} className="w-100 db outline black-10"/></Link>
               <dl className="mt2 f6 lh-copy">
                 <dt className="clip">Title</dt>
                 <dd className="ml0 black truncate w-100">{ product.title }</dd>

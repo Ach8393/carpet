@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
        return (
         <div >
           <h4> Home / { product.category } / { product.title } </h4>
-          <img src={product.image} alt="product image" />
+          <img src={product.image} alt="product pic" />
           <dl className="mt2 f6 lh-copy">
             <dt className="clip">Title</dt>
             <dd className="ml0 black truncate w-100"> { product.title } </dd>
@@ -30,7 +30,7 @@ import { Link } from 'react-router-dom';
               if (item.category===product.category) {
               return (
                   <div key={item.id} className='fl w-50 w-25-m w-20-l pa2'>
-                     <Link to={ `/ProductCard/${item.id}` }><img onClick={window.scrollTo(0,0)} src="{item.image}" alt="Frank Ocean Blonde Album Cover" className="w-100 db outline black-10" /></Link>
+                     <Link to={ `/ProductCard/${item.id}` }><img onClick={window.scrollTo(0,0)} src={item.image} alt="carpet" style={{ height:'150px' }} className="w-100 db outline black-10" /></Link>
                        <dl className="mt2 f6 lh-copy">
                          <dt className="clip">Title</dt>
                          <dd className="ml0 black truncate w-100">{item.title}</dd>

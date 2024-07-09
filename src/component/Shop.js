@@ -21,7 +21,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/cpu.jpg" class="db" alt=" a dimly lit room with a computer interface terminal." />
+			          <img src="https://www.carpetencyclopedia.com/categories/village-carpets/29777_330.jpg" class="db" alt=" a dimly lit room with a computer interface terminal." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE ESSENTIAL BENI OUARAIN CARPET</h1>
@@ -38,7 +38,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/warehouse.jpg" class="db" alt="a warehouse with stacked shelves." />
+			          <img src="https://www.carpetencyclopedia.com/img/topimage_768.jpg" class="db" alt="a warehouse with stacked shelves." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE ATYPICAL AZILAL RUG</h1>
@@ -55,7 +55,7 @@ function Shop() {
 			    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
 			      <div class="flex flex-column flex-row-ns">
 			        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-			          <img src="http://mrmrs.github.io/photos/whale.jpg" class="db" alt=" a whale's tale coming crashing out of the water." />
+			          <img src="https://images.rugvista.net/image/det_newZoom/2579137.jpg" class="db" alt=" a whale's tale coming crashing out of the water." />
 			        </div>
 			        <div class="w-100 w-60-ns pl3-ns">
 			          <h1 class="f3 fw1 baskerville mt0 lh-title">THE AVANT-GARDE BOUCHEROUITE RUG</h1>

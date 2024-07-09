@@ -19,8 +19,8 @@ return (
 	          </a>
 	        </div>
 	        <ul className="dtc v-mid tr pa3">
-	          <li onClick={()=>{setMenu("electronics")}} className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" ><Link to='/electronics'>Carpet Amazigh</Link></li> 
-	          <li onClick={()=>{setMenu("jewelery")}} className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"><Link to='/jewelery'>Traditional Carpet</Link></li>  
+	          <li onClick={()=>{setMenu("electronics")}} className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" ><Link style={{ textDecoration:'none', color:'white' }} to='/electronics'>Carpet Amazigh</Link></li> 
+	          <li onClick={()=>{setMenu("jewelery")}} className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"><Link style={{ textDecoration:'none', color:'white' }} to='/jewelery'>Traditional Carpet</Link></li>  
 	          <li className="f6 fw4 hover-white no-underline white-70 dn dib m12 pv2 ph3">
 	            <Link to='/Cart'><img src={shopcart} className='dib w2 h2 br-100' alt='cart icon' /></Link>
 	            <div className="nav-cart-count"> {getTotalCartItems()} </div>
